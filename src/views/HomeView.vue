@@ -1,9 +1,15 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import Joke from '../components/Joke.vue'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+    <main>
+        <Suspense>
+            <Joke />
+
+            <template #fallback>
+                Loading...
+            </template>
+        </Suspense>
+    </main>
 </template>
