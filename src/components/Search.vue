@@ -21,7 +21,7 @@ async function searchJokes() {
 <template>
     <div class="search mb-5">
         <div class="search-input flex flex-col mb-2">
-            <label for="search" class="text-base font-semibold mb-2">Search for a Chuck Norris joke</label>
+            <label for="search" class="text-base font-semibold mb-2 text-white">Search for a Chuck Norris joke</label>
             <input v-model="jokeText" class="rounded py-2 px-4 text-black" type="text" name="search" id="search" placeholder="Type here" />
         </div>
         <button @click="searchJokes()" class="w-full block bg-green-400 transform hover:bg-green-300 focus:bg-green-300 text-black uppercase text-base mx-auto py-2 px-4 rounded">Search</button>

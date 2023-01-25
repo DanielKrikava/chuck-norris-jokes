@@ -17,9 +17,9 @@ async function getJokeFromCategory(category) {
 
 <template>
     <div class="categories">
-        <p class="mb-3 font-semibold text-base">Click on any category below to get a random joke from that category</p>
+        <p class="mb-3 font-semibold text-base text-white">Click on any category below to get a random joke from that category</p>
         <ul class="flex flex-wrap">
-            <li v-for="category in categories" @click="getJokeFromCategory(category)" class="mb-2 mr-5 cursor-pointer hover:underline hover:text-green-400">{{ category }}</li>
+            <li v-for="category in categories" @click="getJokeFromCategory(category)" class="mb-2 mr-5 cursor-pointer text-white hover:underline hover:text-green-400">{{ category }}</li>
         </ul>
     </div>
 </template>

@@ -19,7 +19,7 @@ onMounted(() => {
 
 <template>
     <div class="main-content h-full">
-        <div class="joke-card rounded shadow max-w-lg mx-auto p-4 text-center h-full flex flex-col justify-center content-center">
+        <div class="joke-card rounded shadow max-w-lg mx-auto p-4 text-center h-full flex flex-col justify-center content-center text-white">
             <h1 class="mb-2">{{ jokeStore.joke.value }}</h1>
             <p v-if="jokeStore.joke.total === 0" class="mb-3">There are no jokes based on your search.</p>
             <p v-else class="mb-3">Joke category: 
