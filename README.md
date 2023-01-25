@@ -1,6 +1,6 @@
 # chuck-norris-jokes-vue-3
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a simple application that uses https://api.chucknorris.io/ API to view and search through jokes about Chuck Norris.
 
 ## Recommended IDE Setup
 
